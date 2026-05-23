@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#2E7D32"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/nav_user_photo"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/sodo1"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nav_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Wolayta Eros"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nav_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="የዎላይታ መረጃ ቋት"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/nav_user_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0919961315"
+        android:textSize="13sp"
+        android:alpha="0.8" />
+
+</LinearLayout>

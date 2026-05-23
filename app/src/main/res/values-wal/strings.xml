@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Wolayta Eros</string>
+    <string name="cat_title">Wolaytta Eros Doro kalsuwaa saro yiidda</string>
+    <string name="confirm_delete">Hagee tumu quuchchettanaau koyay?</string>
+    <string name="yes">Ee</string>
+    <string name="no">Akkay</string>
+    <string name="deleted_success">Oosuwaa quuchchettis!</string>
+    <string name="menu_home">Soo</string>
+    <string name="menu_category">Doro</string>
+    <string name="menu_upload">Yeggiyoogaa</string>
+    <string name="menu_account">Akkaonttiyaa</string>
+    <string name="menu_logout">Kiyiyoogaa</string>
+    <string name="menu_settings">Giigissuwaa</string>
+    <string name="menu_about">Nuubaa</string>
+    <string name="menu_share">Arentta</string>
+    <string name="menu_contact">Nuuna demma</string>
+
+    <string name="settings_title">Giigissuwaa</string>
+    <string name="dark_mode">Xumaa mode</string>
+    <string name="change_lang">Doona laammaa</string>
+
+    <string name="cat_politics">Polatikaa</string>
+    <string name="cat_food"> Quuttaa</string>
+    <string name="cat_culture">Wogaa</string>
+    <string name="cat_ads">Odissuwaa</string>
+    <string name="cat_edu">Timirttiyaa</string>
+    <string name="cat_infra">Baso Oosuwaa</string>
+    <string name="cat_nature">Medhiyaa</string>
+    <string name="cat_leader">Kaalettiyaageeta</string>
+    <string name="cat_animals">Mehiyaa</string>
+    <string name="cat_jobs">Oosuwaa</string>
+</resources>

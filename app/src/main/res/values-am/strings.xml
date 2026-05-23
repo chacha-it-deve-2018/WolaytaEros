@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ዎላይታ ኤሮስ</string>
+    <string name="cat_title">ወደ ወላይታ ኤሮስ ምድቦች በሰላም መጡ</string>
+    <string name="confirm_delete">ይህንን መረጃ በእርግጠኝነት ማጥፋት ይፈልጋሉ?</string>
+    <string name="yes">አዎ</string>
+    <string name="no">አይ</string>
+    <string name="deleted_success">መረጃው በትክክል ተሰርዟል!</string>
+    <string name="menu_home">መነሻ</string>
+    <string name="menu_category">ዝርዝሮች</string>
+    <string name="menu_upload">አክል</string>
+    <string name="menu_account">መገለጫ</string>
+    <string name="menu_logout">ውጣ</string>
+    <string name="menu_settings">መቼቶች</string>
+    <string name="menu_about">ስለ እኛ</string>
+    <string name="menu_share">አጋራ</string>
+    <string name="menu_contact">አግኙን</string>
+
+    <string name="settings_title">መቼቶች</string>
+    <string name="dark_mode">ጨለማ ሞድ</string>
+    <string name="change_lang">ቋንቋ ቀይር</string>
+
+    <string name="cat_politics">ፖለቲካ</string>
+    <string name="cat_food">ባህላዊ ምግቦች</string>
+    <string name="cat_culture">ባህል</string>
+    <string name="cat_ads">ማስታወቂያ</string>
+    <string name="cat_edu">ትምህርት</string>
+    <string name="cat_infra">መሠረተ ልማት</string>
+    <string name="cat_nature">ተፈጥሮ</string>
+    <string name="cat_leader">የዎላይታ መሪዎች</string>
+    <string name="cat_animals">የዱር እና የቤት እንስሳት</string>
+    <string name="cat_jobs">የስራ እድሎች</string>
+</resources>

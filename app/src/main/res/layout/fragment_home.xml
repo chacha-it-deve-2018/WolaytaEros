@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBFA"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/homeBanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wolayta_banner" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#26000000" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ስለ ወላይታ ሶዶ ከተማና አካባቢዋ\nአጠቃላይ መረጃ"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037" android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:paddingHorizontal="20dp"
+        android:lineSpacingExtra="4dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="4dp"
+        android:background="#FFAB00" android:layout_gravity="center"
+        android:layout_marginBottom="15dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="25dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <TextView
+            android:id="@+id/homeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="እንኳን ወደ ወላይታ ሶዶ ከተማ በደህና መጡ!\n\nይህ መተግበሪያ የደቡብ ኢትዮጵያ ዕንቁ የሆነችውን የወላይታ ሶዶ ከተማንና አካባቢዋን ታሪክ፣ ባህል፣ እና ወቅታዊ እንቅስቃሴዎች ለአለም ለማስተዋወቅ ታስቦ የተዘጋጀ ሁለንተናዊ የዲጂታል መረጃ ማዕከል ነው። ሶዶ ከተማ በታላቁ የዳሞት ተራራ ግርጌ የተቆረቆረች፣ ለምለም አየር ንብረት የታደለች እና የንግድ፣ የትምህርት እንዲሁም የባህል መገናኛ ማዕከል ናት።\n\nበዚህ መተግበሪያ ውስጥ የሚያገኟቸው ዋና ዋና አገልግሎቶች፡\n\n✅ ወቅታዊ መረጃዎችና ዜናዎች\n✅ ባህልና ቅርሶች\n✅ የቱሪዝም መዳረሻዎች\n✅ ማህበራዊ ትስስር\n\nይህ አፕሊኬሽን ለዎላይታ ተወላጆች፣ ለጎብኚዎች እና ስለ አካባቢው ማወቅ ለሚፈልጉ ተመራማሪዎች ሁሉ ተመራጭ ረዳት ነው። የዎላይታን እንግዳ ተቀባይነት፣ ታታሪነት እና ጥበብ በዚህ ዲጂታል መስኮት ይጎብኙ!\n\nዎላይታ ሶዶ - የፍቅርና የጥበብ ከተማ!"
+            android:textSize="16sp"
+            android:textColor="#4E342E"
+            android:lineSpacingExtra="10dp"
+            android:padding="20dp"
+            android:justificationMode="inter_word" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/wolaita_tv_logs"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example@email.com"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ለመግባት እዚህ ይጫኑ"
+        android:backgroundTint="#1A73E8"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ውጣ (Logout)"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+</LinearLayout>
